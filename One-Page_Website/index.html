@@ -1,103 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
 
-<head>
-    <title>Anime Bangers | Home</title>
-    <script>
-        function getRandomImage() {
-            var images = [
-                "images/image1.jpg",
-                "images/image2.jpg",
-                "images/image3.jpg",
-                "images/image4.jpg",
-                "images/image5.jpg",
-                "images/image6.jpg",
-                "images/image7.jpg"
-            ];
-            var randomIndex = Math.floor(Math.random() * images.length);
-            return images[randomIndex];
-        }
-    </script>
-</head>
-
-<body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#pictures">Pictures</a></li>
-            <li><a href="#video">Video</a></li>
-            <li><a href="#newsletter">Newsletter</a></li>
-        </ul>
-    </nav>
-
-    <section id="home">
-        <h1>Welcome to Anime Bangers!</h1>
-        <p>This website was spun together by a collection
-            <br>of like-minded individuals who share a passion
-            <br>for anime. Feel free to browse around!
-        </p>
-    </section>
-
-    <section id="pictures">
-        <h2>Random Featured Anime Banger</h2>
-        <img src="" alt="Featured Anime" id="image1" width=50% height=auto>
-    </section>
-
-    <script>
-        var image1 = document.getElementById("image1");
-
-        image1.src = getRandomImage();
-    </script>
-
-    <section id="video">
-        <h2>Featured Anime Video of the Day</h2>
-        <iframe width="921" height="518" src="https://www.youtube.com/embed/gbjbdrSiHWc"
-            title="The Misfit of Demon King Academy All Fight Scenes" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-
-
-
-        <!--RSVP-->
-        <section id="newsletter">
-            <div>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/CSS/one_page_website.css">
+        <title>Anime Bangers | Home</title>
+        <script>
+            function getRandomImage() {
+                var images = [
+                    "assets/images/image1.jpg",
+                    "assets/images/image2.jpg",
+                    "assets/images/image3.jpg",
+                    "assets/images/image4.jpg",
+                    "assets/images/image5.jpg",
+                    "assets/images/image6.jpg",
+                    "assets/images/image7.jpg"
+                ];
+                var randomIndex = Math.floor(Math.random() * images.length);
+                return images[randomIndex];
+            }
+        </script>
+    </head>
+    
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
+        </nav>
+    
+        <section id="home">
+            <h1>Welcome to Anime Bangers!</h1>
+            <p>This website was spun together by a collection
+                <br>of like-minded individuals who share a passion
+                <br>for anime. Feel free to browse around!
+            </p>
+        </section>
+    
+        <section id="pictures">
+            <h2>Random Featured Anime Banger</h2>
+            <img src="" alt="Featured Anime" id="image1" width=50% height=auto>
+        </section>
+    
+        <script>
+            var image1 = document.getElementById("image1");
+        
+            image1.src = getRandomImage();
+        </script>
+    
+        <section id="video">
+            <h2>Featured Anime Video of the Day</h2>
+            <iframe width="921" height="518" src="https://www.youtube.com/embed/gbjbdrSiHWc"
+                title="The Misfit of Demon King Academy All Fight Scenes" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        
+        
+        
+            <!--RSVP-->
+            <section id="newsletter">
                 <div>
-                    <h1>Newsletter</h1>
                     <div>
-                        <h2><span>Sign up for updates and a monthly newsletter!</span>
-                        </h2>
-                        <p>
-                            Please fill out your contact information below to receive updates and a weekly newsletter
-                            from
-                            Anime Bangers.
-                        </p>
+                        <h1>Newsletter</h1>
                         <div>
-                            <form>
-                                <label for="name">First name:</label>
-                                <input type="text" id="name" name="name" required>
-
-                                <label for="name">Last name:</label>
-                                <input type="text" id="name" name="name" required>
-
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" required>
-
-                                <div>
-                                    <input type="submit" value="Submit">
-                                </div>
-                            </form>
+                            <h2><span>Sign up for updates and a monthly newsletter!</span>
+                            </h2>
+                            <p>
+                                Please fill out your contact information below to receive updates and a weekly newsletter
+                                from
+                                Anime Bangers.
+                            </p>
+                            <div>
+                                <form>
+                                    <label for="name">First name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                
+                                    <label for="name">Last name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                
+                                    <div>
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!--END RSVP-->
-
-        <footer>
-            <div>
-                <p>www.animebangers.com &nbsp;|&nbsp; &copy; 2023. All rights reserved.</p>
-            </div>
-        </footer>
+            </section>
+            <!--END RSVP-->
+        
+            <footer>
+                <div>
+                    <p>www.animebangers.com &nbsp;|&nbsp; &copy; 2023. All rights reserved.</p>
+                </div>
+            </footer>
 
 </html>
