@@ -1,0 +1,20 @@
+/*-----------------------------------------------
+Hey instructor, I hope you're having a great day! :D
+-------------------------------------------------*/
+
+body {
+    background-color: lightblue;
+}
+
+h1, h2, h3, p {
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    border-style: dashed;
+    border-color: red;
+}
